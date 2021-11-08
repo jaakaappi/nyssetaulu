@@ -96,7 +96,7 @@ void update_display(String data, float seconds_since_update, int update_interval
 
 void setup()
 {
-  Serial.begin(9600);
+  Serial.begin(115200);
   u8g2.begin();
 
   Serial.println("Connecting to Wifi");
